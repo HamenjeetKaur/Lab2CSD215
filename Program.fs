@@ -24,4 +24,9 @@ let teams = [
     ]
 
 let goodteam =  teams |>  List.filter (fun teams -> teams.Stats.Wins > teams.Stats.Losses)    
-goodteam |> List.iter (fun teams -> printfn "%s" teams.Name)   
+goodteam |> List.iter (fun teams -> printfn " Best Team = %s" teams.Name)  
+
+let sper teams = float teams.Stats.Wins / float (teams.Stats.Wins+ teams.Stats.Losses)*100.0
+let successper = goodteam |> List.map sper
+let avg = List.average successper
+printfn "Average Success percentage = %f" avg
