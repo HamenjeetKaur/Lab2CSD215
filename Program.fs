@@ -54,3 +54,18 @@ type Activities =
 |Movie of Genres
 |Restaurant of Restaurants
 |LongDrive of int*float 
+
+let Budget ac =
+   match ac with
+   |BoardGame |Chill  -> 0.0
+   |Movie Regular -> 12.0
+   |Movie IMAX -> 17.0
+   |Movie DBOX -> 20.0
+   |Movie _ -> 12.0 + 5.0
+   |Restaurant Korean -> 70.0
+   |Restaurant Turkish-> 65.0
+   |LongDrive( km, price) -> float km * price
+
+let activity = Restaurant Korean
+let finalBudget = Budget activity
+printfn "Approx Budget = %.2f CAD" finalBudget
