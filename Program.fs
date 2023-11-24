@@ -13,3 +13,12 @@ type team={
     Coach: coach
     Stats: stats
     }
+
+
+let teams = [
+    {Name="Indiana Pacers"; Coach={Name= "Rick Carlisle"; Formerplayer= true}; Stats={Wins=1883; Losses=1903}}
+    {Name="Utah Jazz"; Coach={Name= "Quin Snyder"; Formerplayer= true}; Stats={Wins=2146; Losses=1804}}
+    {Name="New York Knicks"; Coach={Name= "Tom Thibodeau"; Formerplayer= true}; Stats={Wins=2924; Losses=3099}}
+    {Name="Los Angeles Clippers"; Coach={Name= "Tyronn Lue"; Formerplayer= true}; Stats={Wins=1792; Losses=2486}}
+    {Name="Phoenix Suns"; Coach={Name= "Igor Kokoskov"; Formerplayer= true}; Stats={Wins=2380; Losses=2063}}
+    ]
