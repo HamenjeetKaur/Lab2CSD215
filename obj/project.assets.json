@@ -113,11 +113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hamen\\Desktop\\Paradigms\\MyFSharpApp\\MyFSharpApp.fsproj",
+      "projectUniqueName": "C:\\Users\\hamen\\Desktop\\Paradigms\\MyFSharpApp\\Lab2CSD215Hamen\\MyFSharpApp.fsproj",
       "projectName": "MyFSharpApp",
-      "projectPath": "C:\\Users\\hamen\\Desktop\\Paradigms\\MyFSharpApp\\MyFSharpApp.fsproj",
+      "projectPath": "C:\\Users\\hamen\\Desktop\\Paradigms\\MyFSharpApp\\Lab2CSD215Hamen\\MyFSharpApp.fsproj",
       "packagesPath": "C:\\Users\\hamen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hamen\\Desktop\\Paradigms\\MyFSharpApp\\obj\\",
+      "outputPath": "C:\\Users\\hamen\\Desktop\\Paradigms\\MyFSharpApp\\Lab2CSD215Hamen\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hamen\\AppData\\Roaming\\NuGet\\NuGet.Config"

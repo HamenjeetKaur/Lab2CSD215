@@ -22,3 +22,6 @@ let teams = [
     {Name="Los Angeles Clippers"; Coach={Name= "Tyronn Lue"; Formerplayer= true}; Stats={Wins=1792; Losses=2486}}
     {Name="Phoenix Suns"; Coach={Name= "Igor Kokoskov"; Formerplayer= true}; Stats={Wins=2380; Losses=2063}}
     ]
+
+let goodteam =  teams |>  List.filter (fun teams -> teams.Stats.Wins > teams.Stats.Losses)    
+goodteam |> List.iter (fun teams -> printfn "%s" teams.Name)   

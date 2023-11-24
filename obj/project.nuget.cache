@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Wgxk3y5ZnUU+eJSIlTsiQI7QqFpM//SU//4yM0/I+fWBlhz1xDo/bqpSMYAvp5PBbBRCPpbdIThseTSdu0DsSA==",
+  "dgSpecHash": "x7imWFH/IIAHlyt5c9qPRAtK/xhgG0f/mBcUc7rR0/p67Vj/vix/FboTSBKUCUbMAd75kN4kNlPg5SVUjQqUSQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hamen\\Desktop\\Paradigms\\MyFSharpApp\\MyFSharpApp.fsproj",
+  "projectFilePath": "C:\\Users\\hamen\\Desktop\\Paradigms\\MyFSharpApp\\Lab2CSD215Hamen\\MyFSharpApp.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamen\\.nuget\\packages\\fsharp.core\\7.0.401\\fsharp.core.7.0.401.nupkg.sha512"
   ],
